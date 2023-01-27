@@ -23,6 +23,7 @@ if (!hasFlippedCard) {
 }
 secondCard = this;
 checkFormatch();
+increment();
 }
 
 function checkFormatch() {
