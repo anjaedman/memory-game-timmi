@@ -75,6 +75,7 @@
     
     background-color: rgb(10, 164, 33);
     font-size: 2rem;
+    font-weight: bold;
     z-index: 1000;
     border: none;
     box-shadow: inset 0 0 50px #fff, inset 20px 0 80px #f0f,
@@ -102,8 +103,8 @@
   #counter {
     position: fixed;
     top: 18rem;
-    right: 400px;
-    padding: 1.8rem;
+    right: 410px;
+    padding: 2rem;
     font-size: 1.5rem;
     line-height: 2rem;
     text-align: center;
