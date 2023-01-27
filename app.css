@@ -22,11 +22,6 @@
     flex-wrap: wrap;
     perspective: 1000px;
    
- 
-
-
-
-    
   }
   
   .memory-card {
@@ -70,4 +65,48 @@
   .front-face {
     transform: rotateY(180deg);
     
+  }
+
+  
+  button {
+    position: fixed;
+    top: 13rem;
+    right: 425px;
+    
+    background-color: rgb(10, 164, 33);
+    font-size: 1.5rem;
+    z-index: 1000;
+    border: none;
+    box-shadow: inset 0 0 50px #fff, inset 20px 0 80px #f0f,
+    inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff,
+    0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+
+
+    /* box-shadow: 4.0px 6.0px 6.0px hsl(0deg 0% 0% / 0.75); */
+    padding: 1.3rem;
+    border-radius: 15px;
+  }
+  button:hover {
+    /* box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.35); */
+
+    box-shadow: inset 0 0 50px #fff, inset 20px 0 80px #f0f,
+    inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff,
+    0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+
+  }
+
+  button:active {
+    background-color: rgb(85, 162, 96);
+  }
+
+  #counter {
+    position: fixed;
+    top: 18rem;
+    right: 400px;
+    padding: 1.3rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+    color: rgba(255, 166, 0, 0.652);
+    z-index: 1000;
   }

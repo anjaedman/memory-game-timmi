@@ -66,6 +66,19 @@ function resetBoard() {
     });
   })();
  
+  let count = 1;
 
+  function increment() {
+      if (count === 1) {
+          document.querySelector("#counter").innerHTML =  "Du har vänt kort <br />" + count + " gång."
+          count++
+      } else {
+          document.querySelector("#counter").innerHTML =  "Du har vänt kort <br />" + count + " gånger."
+          count++
+      }
+      count ++
+  };
+  
+  
 cards.forEach(card => card.addEventListener("click", flipCard));
 
