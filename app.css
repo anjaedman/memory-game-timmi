@@ -70,7 +70,7 @@
   
   button {
     position: fixed;
-    top: 13rem;
+    top: 2rem;
     right: 425px;
     
     background-color: rgb(10, 164, 33);
@@ -102,7 +102,8 @@
 
   #counter {
     position: fixed;
-    top: 19rem;
+
+    top: 8rem;
     right: 365px;
     padding: 2rem;
     font-size: 2rem;
